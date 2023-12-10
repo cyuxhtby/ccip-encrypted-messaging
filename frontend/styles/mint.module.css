@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.nftMedia img {
+    width: 16px;
+    height: 16px;
+}
+
+.web3Button  {
+    padding: 5px 10px !important; /* Smaller padding */
+    font-size: 12px !important;
+    cursor: pointer !important;
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    border-radius: 24px !important;
+    text-align: center !important;
+}
+
+.web3Button:hover {
+    background-color: #f213a4 !important;
+    color: white !important;
+}

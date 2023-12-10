@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  margin: 0.05rem;
+}
+
+.input {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  flex: 1;
+  height: 30px;
+}
+
+.button {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 0.2rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  cursor:pointer;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  height: 30px; 
+}
+
+.button:hover {
+  background-color: #f213a4;
+  color: white;
+}
+
+.connectWalletContainer {
+  margin-top: 30px;
+  margin-bottom: 60px; 
+}
