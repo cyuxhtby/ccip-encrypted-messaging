@@ -6,14 +6,15 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome
+          CCIP Encrypted Messaging
         </h1>
+        <h4>Send your encrypted message cross chain and decrypt on any chain you want</h4>
 
-        <Link href="/dex" target="_blank">
-          <button className={styles.button}>Enter DEX</button>
+        <Link href="/app" target="_blank">
+          <button className={styles.button}>Enter App</button>
         </Link>
-        <Link href="/mint">
-        <button className={styles.buttonMint}> Mint</button>
+        <Link href="/encrypt-decrypt">
+        <button className={styles.buttonMint}> encrypt-decrypt</button>
         </Link>
       </main>
     </div>

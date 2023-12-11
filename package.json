@@ -17,6 +17,6 @@
     "@openzeppelin/contracts": "^4.9.2",
     "@thirdweb-dev/chains": "^0.1.23",
     "dotenv": "^16.3.1",
-    "thirdweb": "^0.10.25"
+    "thirdweb": "^0.13.24"
   }
 }
