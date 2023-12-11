@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
         <h4>Send your encrypted message cross chain and decrypt on any chain you want</h4>
 
-        <Link href="/app" target="_blank">
+        <Link href="/messaging" target="_blank">
           <button className={styles.button}>Enter App</button>
         </Link>
         <Link href="/encrypt-decrypt">
