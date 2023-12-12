@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className={styles.title}>
           CCIP Encrypted Messaging
         </h1>
-        <h4>Send your encrypted message cross chain and decrypt on any chain you want</h4>
+        <h4>Cross Chain Interoperability with Encrypted Strings</h4>
 
         <Link href="/messaging" target="_blank">
           <button className={styles.button}>Enter App</button>

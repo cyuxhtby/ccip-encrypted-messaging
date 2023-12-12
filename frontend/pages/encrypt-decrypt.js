@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 import { encryptMessage, decryptMessage } from '../lib/crypto';
 import styles from '../styles/EncryptDecrypt.module.css';
 
@@ -24,15 +25,22 @@ const EncryptDecryptPage = () => {
 
     return (
         <div className={styles.container}>
+             <div className={styles.topRightLink}>
+        <Link href="/messaging">
+          Cross Chain Messaging
+        </Link>
+      </div>
             <div>
                 <h2>Encrypt Message</h2>
                 <input 
+                    className={styles.inputField}
                     type="text" 
                     value={message} 
                     onChange={(e) => setMessage(e.target.value)} 
                     placeholder="Enter message" 
                 />
                 <input 
+                    className={styles.textarea}
                     type="password" 
                     value={passphrase} 
                     onChange={(e) => setPassphrase(e.target.value)} 
@@ -40,6 +48,7 @@ const EncryptDecryptPage = () => {
                 />
                 <button onClick={handleEncrypt}>Encrypt</button>
                 <textarea 
+                     className={styles.textarea}
                     value={encryptedMessage} 
                     readOnly 
                 />
@@ -48,12 +57,13 @@ const EncryptDecryptPage = () => {
             <div>
                 <h2>Decrypt Message</h2>
                 <textarea 
-                    value={encryptedMessage} 
+                     className={styles.textarea}
                     onChange={(e) => setEncryptedMessage(e.target.value)} 
                     placeholder="Paste encrypted message" 
                 />
                 <button onClick={handleDecrypt}>Decrypt</button>
                 <textarea 
+                    className={styles.textarea}
                     value={decryptedMessage} 
                     readOnly 
                 />
