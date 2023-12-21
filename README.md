@@ -1,32 +1,17 @@
-# Decentralized Exchange
+# CCIP Encrypted Messaging README
 
 ## Overview
-This is a Decentralized Exchange project for educational purposes, built using Hardhat. It includes Solidity smart contracts, a frontend, deployment scripts, and tests. The Solidity code follows the LearnWeb3.io Sophore Track course.
+A demo focused on storing encrypted messages on Sepolia and using CCIP to send it to Mumbai.
 
-## Prerequisites
-- Node.js
-- Hardhat
-- Ethereum Wallet
+## Built With
+- Crypto-js for encryption
+- Solidity for smart contracts
+- CCIP for cross chain
+- Next.js for UI
+- Thirdweb for contract interactions
 
-## Setup
-1. Clone the repository: `git clone https://github.com/cyuxhtby/decentralized-exchange.git`
-2. Go to the project directory: `cd decentralized-exchange`
-3. Install dependencies: `npm install`
-
-## Running
-1. Start Hardhat network: `npx hardhat node`
-2. Deploy contracts: `npx hardhat run scripts/deploy.js`
-3. Go to frontend directory: `cd frontend`
-4. Start frontend: `yarn dev`
-
-## Structure
-- `contracts/`: Solidity smart contracts.
-- `frontend/`: Next.js frontend code.
-- `scripts/`: Deployment scripts.
-- `test/`: Contract tests.
-
-## Resources
-Based on LearnWeb3.io Sophore Track. Visit [LearnWeb3.io](https://learnweb3.io).
+## Future Goals
+- Allow naitive onchain decryption
 
 ## Contributing
 Open to contributions. Open issues or submit PRs.
